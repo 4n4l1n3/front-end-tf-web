@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos</title>
+    <link rel="stylesheet" href="style2.css" </head>
+</head>
+
+<body>
+    <form action="/resultados-de-busca" method="get">
+        <label for="barra-de-busca">Pesquisar:</label>
+        <input type="search" id="barra-de-busca" name="q" placeholder="Digite o que você procura aqui">
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+<header>
+    <button><a href="/adm/convenios2.html">Lista de convênios</a></button>
+    <button><a href="/adm/paginicialAdm.html">Página Inicial</a></button>
+
+    <h1>&#x1F4C4;<h1>
+            <h2>Documentos</h2>
+            <p>Aqui estão disponíveis todos os documentos necessários para a efetuação do Estágio Supervisionado:</p>
+            <section>
+                <p>Ficha de matrícula </p>
+                <p> TCE </p>
+                <p>Ficha de avaliação-aluno avalia empresa </p>
+                <p>Ficha de avaliação final-empresa avalia aluno </p>
+                <p>Certificado </p>
+                <p> Ficha de frêquencia </p>
+            </section>
+
+            <h2>Área do administrador</h2>
+            <form action="/processar-anexo" method="post" enctype="multipart/form-data">
+                <label for="Documentos">Inserir um documento:</label>
+                <input type="file" id="Documentos" name="Documentos" accept=".pdf, .doc, .docx">
+                <button type="submit">Enviar</button>
+            </form>
+            <br>
+            <form action="/excluir-anexo" method="post">
+                <label for="idDocumentos">Excluir um documento:</label>
+                <input type="text" id="idDocumentos name=" idDocumentos accept>
+                <button type="submit">Excluir</button>
+            </form>
+            <br>
+            <form action="/modificar-anexo" method="post">
+                <label for="idDoc">Modificar anexo:</label>
+                <input type="file" id="idDoc name=" idDoc accept>
+                <button type="submit">Modificar</button>
+            </form>
+            <br>
+            <h3>Para mais informações institucionais acesse:</h3>
+            <iframe src="https://www.ifnmg.edu.br/salinas" width="900px" , height="250px" , margin="auto"
+                frameborder="0" allowfullscreen></iframe>
+            </iframe>
+            <footer>
+                <p>&copy; Fazenda Varginha Km 02 Rod. Salinas - Salinas/MG
+                    Fone/Fax: (038)3841-7000 - Email: comunicacao.salinas@ifnmg.edu.br</p>
+            </footer>
+</header>
+
+</html>

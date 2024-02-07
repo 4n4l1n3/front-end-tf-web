@@ -1,0 +1,31 @@
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: flexbox;
+    width: 30%;
+}
+
+body {
+    background-color: rgb(142, 216, 139);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+button {
+    padding: 8px;
+    text-align: left;
+    color: #fff margin none;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #5b9c69;
+    border-color: #8ad1a5;
+}
